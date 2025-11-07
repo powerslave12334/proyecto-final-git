@@ -1,12 +1,8 @@
-function seconds (string){
-
-}
-function minutes (string)
-{
-
-}
-
-function hours ()
-{
-   
+function hours() {
+    let string = "";
+    for (let hour = 0; hour <= 23; hour++) {
+        string = `${hour} hrs `
+        minutes(string);
+        string = "";
+    }
 }
